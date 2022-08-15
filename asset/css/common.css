@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Apple Gothic';
+    src: url('../fonts/sf-pro-display_regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Apple Gothic';
+    src: url('../fonts/sf-pro-display_semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'SF Pro Icons';
+    src: url('../fonts/sf-pro-icons_regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text_regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text_semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'SF Pro KR';
+    src: url('../fonts/SFProKRDisplay_regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SF Pro KR';
+    src: url('../fonts/SFProKRDisplay_semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+
+.blind{
+    height: 1px; width: 1px;
+    position: absolute;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+}
+body{
+    word-break: keep-all;
+    margin: 0 auto;
+    font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.common-inner1{
+    /* 레이아웃 바뀌기 전에는 maxwidth  다시 안 줘도 됨 */
+    max-width: 1390px;
+    margin:0 auto;
+    padding: 0 25px;
+}
+.common-inner2{
+    max-width: 996px;
+    margin:0 auto;
+    padding: 0 40px;
+}
+
+.header .search{
+    background-image: url(../images/search.svg);
+    background-size: 15px 88px;
+    background-repeat: no-repeat;
+}
+.footer .menu-area .apple-home{
+    background-size: 14px 72px;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer-logo.svg);
+}
+
+.footer .apple-watch-section a::after
+{
+    background-size: 8px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer-arrow.svg);
+}
+
+
+@media screen and (max-width: 1200px) {
+    /* *1024을 기준으로 화면을 보고 잡아야함 */
+    .common-inner1{
+        /* max-width: 970px; */
+    }
+
+    .common-inner2{
+        /* max-width: 927px; */
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* *768을보고 잡아야함 */
+    .common-inner1{
+        /* max-width: 711px; */
+    }
+
+    .common-inner2{
+        /* max-width: 719px; */
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    /* *320을 보고 잡아야함 */
+  .common-inner1{
+    /* max-width: 450px; */
+    width: 316px;
+    
+  }
+  .common-inner2{
+    padding: 0 16px;
+}
+}
+@media screen and (max-width: 380px) {
+    /* *320을 보고 잡아야함 */
+.common-inner1{
+    padding: 0px;
+      }
+  .common-inner2{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+}

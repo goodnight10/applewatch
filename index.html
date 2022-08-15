@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Watch SE - Apple (KR)</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./asset/images/faviconapple.ico">
+    <link rel="stylesheet" href="./asset/css/layout.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+
+    <script src="./asset/js/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script defer src="./asset/js/custom.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="dimmed"></div>
+            <div class="gnb-area">
+                <div class="common-inner2">
+                    <h1 class="logo" data-motion="header"><a href="" class="link-logo"><span class="blind">애플</span></a>
+                    </h1>
+                    <nav class="gnb-wrap">
+                        <ul class="gnb-list">
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">스토어</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">Mac</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">iPad</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">iPhone</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">Watch</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">AirPods</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">TV 및 홈</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">Apple 독점 제공</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">액세서리</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu" data-motion="header">고객지원</a></li>
+                            <li class="gnb-item"><a href="" class="link-menu search" data-motion="header"><span
+                                        class="blind">검색</span></a></li>
+                        </ul>
+                        <div class="search-wrap">
+                            <div class="search-box">
+                                <label for="search" class="title"><span class="blind">검색창</span></label>
+                                <input class="search-box" type="text" id="search" placeholder="apple.com검색">
+                                <a href="" class="btn-close">닫기</a>
+                            </div>
+                            <div class="link-wrap">
+                                <p>빠른 링크</p>
+                                <a href="" class="link-fast">Apple Store 임시 휴무 관련 자주하는 질문</a>
+                                <a href="" class="link-fast">Apple Store 임시 휴무 관련 자주하는 질문</a>
+                                <a href="" class="link-fast">Apple Store 임시 휴무 관련 자주하는 질문</a>
+                                <a href="" class="link-fast">Apple Store 임시 휴무 관련 자주하는 질문</a>
+                                <a href="" class="link-fast">Apple Store 임시 휴무 관련 자주하는 질문</a>
+                            </div>
+                        </div>
+                        <div class="cart-area">
+                            <a href="" class="btn-menu cart" data-motion="header"><span class="blind">장바구니</span></a>
+                            <div class="cart-wrap">
+                                <p>장바구니가 비어 있습니다</p>
+                                <a href="" class="btn-cart">장바구니</a>
+                                <a href="" class="btn-cart">장바구니</a>
+                                <a href="" class="btn-cart">장바구니</a>
+                                <a href="" class="btn-cart">장바구니</a>
+                                <a href="" class="btn-cart">장바구니</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- 서치영역 라벨, 인풋 -->
+                    <div class="menu-area-mb">
+                        <h1 class="logo-mb"><a href="" class="link-logo"><span class="blind">애플</span></a></h1>
+                        <a href="" class="btn-menu-mb"><span class="blind">메뉴</span></a>
+                        <div class="menu-wrap-mb">
+                            <label for="search-mb" class="title"><span class="blind">검색창</span></label>
+                            <input class="search-box" type="text" id="search-mb" placeholder="apple.com검색">
+                            <nav class="gnb-wrap-mb">
+                                <ul class="gnb-list-mb">
+                                    <li class="gnb-item"><a href="" class="link-menu">스토어</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">Mac</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">iPad</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">iPhone</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">Watch</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">AirPods</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">TV 및 홈</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">Apple 독점 제공</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">액세서리</a></li>
+                                    <li class="gnb-item"><a href="" class="link-menu">고객지원</a></li>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <a href="" class="btn-cart-mb"><span class="blind">장바구니</span></a>
+                        <div class="cart-wrap-mb">
+                            <p>장바구니가 비어 있습니다</p>
+                            <a href="" class="link-cart">장바구니</a>
+                            <a href="" class="link-cart">장바구니</a>
+                            <a href="" class="link-cart">장바구니</a>
+                            <a href="" class="link-cart">장바구니</a>
+                            <a href="" class="link-cart">장바구니</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner1">
+                <div class="common-inner2">
+                    <h2 class="prd"><a href="" class="link-prd">Apple Watch SE</a></h2>
+                    <div class="left">
+                        <span class="desc">개요</span>
+                        <a href="" class="link-desc">Apple Watch를 선택하는 이유</a>
+                        <a href="" class="btn-desc-mb"><span class="blind">서브메뉴 펴기</span></a>
+                        <div class="sub-wrap-mb">
+                            <span class="desc-mb">개요</span>
+                            <a href="" class="link-desc-mb">Apple Watch를 선택하는 이유</a>
+                        </div>
+                        <a href="" class="link-buy">구입하기</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <section class="sc-main">
+                <span class="blind">애플워치가 여러개 돌아가는 동영상</span>
+                <video class="applewatch-video" muted autoplay playsinline>
+                    <source
+                        src="https://www.apple.com/105/media/kr/apple-watch-se/2020/a2e86bd7-8c1e-4214-952e-80385aba937d/anim/hero/large.mp4"
+                        type="video/mp4">
+                    </source>
+                </video>
+            </section>
+            <div class="common-inner2">
+                <section class="sc-intro">
+                    <h2 class="blind">애플워치 SE 가격과 소개</h2>
+                    <div class="img-box">
+                        <img src="./asset/images/watch-se.png" alt="애플워치 SE">
+                    </div>
+                    <div class="price-wrap">
+                        <h3 class="prd-title">손색없다.<br>부담 없다.</h3>
+                        <p class="price-desc">₩359,000부터</p>
+                        <p class="desc">당신이 원활히 소통하고, 활기찬 삶을 유지하고, 건강과 안전을 지킬 수 있게 돕는 여러 강력한 기능. 당신의 각종 움직임을 지속적으로 기록하고,
+                            즐겨
+                            하는 운동도 정확하게 측정해 주는 첨단 센서. 여기에 셀룰러 모델이라면 폰 없이 보다 가볍게 집을 나설 수 있는 자유까지. Apple Watch SE는 기대 이상의
+                            능력을
+                            예상외로 낮은 가격에 만날 수 있게 해주는 시계랍니다.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="common-inner1">
+                <section class="sc-about">
+                    <h2 class="blind">애플워치 SE 주요기능</h2>
+                    <div class="fitness only">
+                        <h3 class="title">
+                            <p>궁극의<br><em> 피트니스</em><br> 파트너.</p>
+                        </h3>
+                        <div class="img-box scrollY" data-from="-100" data-to="100">
+                            <img src="./asset/images/fitness.jpg" alt="활동 화면을 보여주는 애플워치" class="bottom">
+                            <video class="top" muted autoplay playsinline>
+                                <source
+                                    src="https://www.apple.com/105/media/kr/apple-watch-se/2021/dd0ead06-b869-4a33-8259-aff9d487931b/anim/activity-rings/large_2x.mp4"
+                                    type="video/mp4">
+                                </source>
+                            </video>
+                            <img src="./asset/images/fitness-mb.jpg" alt="활동 화면을 보여주는 애플워치" class="bottom-mb">
+                            <video class="top-mb" muted autoplay playsinline>
+                                <source
+                                    src="https://www.apple.com/105/media/kr/apple-watch-se/2021/dd0ead06-b869-4a33-8259-aff9d487931b/anim/activity-rings/small_2x.mp4"
+                                    type="video/mp4">
+                                </source>
+                            </video>
+                        </div>
+                        <span class="tile-button icon-pluscircle icon-before icon"></span>
+                    </div>
+                    <div class="wrap1 wrapper">
+                        <div class="water first">
+                            <h3 class="title">진짜 실력 발휘는<br><em>물</em>속에서.</h3>
+                            <div class="img-box">
+                                <img src="./asset/images/water.jpg" alt="방수상태의 애플워치">
+                            </div>
+                        </div>
+                        <div class="play second">
+                            <h3 class="title">당신의 한계를 시험하는<br> 다양한 <em>운동.</em></h3>
+                            <div class="img-box">
+                                <img src="./asset/images/play.jpg" alt="운동하는 사람들 아이콘">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hearthealth only">
+                        <h3 class="title"><span>당신의<br><em>심장 건강</em>에<br>주목.</span></h3>
+                        <div class="img-box scrollY" data-from="100" data-to="-100">
+                            <img src="./asset/images/hearthealth.jpg" class="hh" alt="심박수를 보여주는 애플워치">
+                            <img src="./asset/images/hearthealth-tb.jpg" class="hh-tb" alt="심박수를 보여주는 애플워치">
+                            <img src="./asset/images/hearthealth-mb.jpg" class="hh-mb" alt="심박수를 보여주는 애플워치">
+                        </div>
+                    </div>
+                    <div class="wrap2 wrapper">
+                        <div class="mindcare first">
+                            <h3 class="title">일상의 중심을<br>잡아주는<br><em>마음 챙기기</em>.</h3>
+                            <div class="img-box">
+                                <span class="blind">마인드케어 화면의 동영상</span>
+                                <video class="mind-video" muted autoplay playsinline>
+                                    <source
+                                        src="https://www.apple.com/105/media/us/apple-watch-se/2021/dd0ead06-b869-4a33-8259-aff9d487931b/anim/meditation/large_2x.mp4"
+                                        type="video/mp4">
+                                    </source>
+                                </video>
+                            </div>
+                        </div>
+                        <div class="help second">
+                            <h3 class="title">필요한 순간에<br><em>도움</em> 요청.</h3>
+                            <div class="img-box">
+                                <img src="./asset/images/help.jpg" alt="긴급서비스 화면의 애플워치">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap3 wrapper">
+                        <div class="allday first">
+                            <h3 class="title"><em>밤</em>낮 없는 보살핌.</h3>
+                            <div class="img-box">
+                                <img src="./asset/images/allday.jpg" alt="수면데이터 화면의 애플워치">
+                            </div>
+                        </div>
+                        <div class="free second">
+                            <h3 class="title"><em>울려라</em>, 자유.</h3>
+                            <span class="blind">연두색 파장 배경화면</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200"
+                                preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%;">
+                                <defs>
+                                    <clipPath id="__lottie_element_2">
+                                        <rect width="1200" height="1200" x="0" y="0"></rect>
+                                    </clipPath>
+                                    <radialGradient id="__lottie_element_9" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_13" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_17" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_21" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_25" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_29" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_33" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                    <radialGradient id="__lottie_element_37" spreadMethod="pad"
+                                        gradientUnits="userSpaceOnUse" cx="0" cy="0" r="139.26600646972656" fx="0"
+                                        fy="0">
+                                        <stop offset="0%" stop-color="rgb(231,254,238)"></stop>
+                                        <stop offset="50%" stop-color="rgb(199,246,213)"></stop>
+                                        <stop offset="100%" stop-color="rgb(168,237,188)"></stop>
+                                    </radialGradient>
+                                </defs>
+                                <g clip-path="url(#__lottie_element_2)">
+                                    <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                                        <rect width="1200" height="1200" fill="#e0ffe9"></rect>
+                                    </g>
+                                    <g transform="matrix(5.800000190734863,0,0,5.800000190734863,600,600)" opacity="0.4"
+                                        style="display: none;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_9)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(5.800000190734863,0,0,5.800000190734863,600,600)" opacity="0.4"
+                                        style="display: none;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_13)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(5.800000190734863,0,0,5.800000190734863,600,600)" opacity="0.4"
+                                        style="display: none;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_17)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(5.755599498748779,0,0,5.755599498748779,600,600)" opacity="0.4"
+                                        style="display: block;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_21)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(5.0430521965026855,0,0,5.0430521965026855,600,600)"
+                                        opacity="0.4" style="display: block;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_25)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(3.5286617279052734,0,0,3.5286617279052734,600,600)"
+                                        opacity="0.4" style="display: block;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_29)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(1.8662523031234741,0,0,1.8662523031234741,600,600)"
+                                        opacity="0.4" style="display: block;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_33)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g transform="matrix(0.8731285333633423,0,0,0.8731285333633423,600,600)"
+                                        opacity="0.4" style="display: block;">
+                                        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                            <path fill="url(#__lottie_element_37)" fill-opacity="1"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                                                stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1"
+                                                stroke-width="0"
+                                                d=" M0,-150 C82.78500366210938,-150 150,-82.78500366210938 150,0 C150,82.78500366210938 82.78500366210938,150 0,150 C-82.78500366210938,150 -150,82.78500366210938 -150,0 C-150,-82.78500366210938 -82.78500366210938,-150 0,-150z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="wrap4 wrapper">
+                        <div class="app first">
+                            <h3 class="title"><span>수많은<br>App Store<br><em>앱</em>이 펼치는<br>더 큰 가능성.</span></h3>
+                            <h3 class="title-tb"><span>수많은 App Store<em> 앱</em>이 <br>펼치는 더 큰 가능성.</span></h3>
+                            <div class="img-box">
+                                <img src="./asset/images/app.jpg" alt="애플워치 어플들">
+                            </div>
+                        </div>
+                        <div class="music second">
+                            <h3 class="title">당신을 뛰게 하는<br><em>음악</em>과 <em>팟캐스트</em>.</h3>
+                            <h3 class="title-tb">당신을 뛰게 하는<em> 음악</em>과 <br><em>팟캐스트</em>.</h3>
+                            <div class="img-box">
+                                <img src="./asset/images/music.jpg" alt="외딴섬 로맨틱 플레이중인 애플워치">
+                            </div>
+                            <div class="img-box-tb">
+                                <img src="./asset/images/music-md.jpg" alt="외딴섬 로맨틱 플레이중인 애플워치">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="display only">
+                        <h3 class="title left"><span>Series 3 대비</span>30%<span>더 큰 디스플레이</span></h3>
+                        <div class="img-box">
+                            <img src="./asset/images/30-2.jpg" class="dp"
+                                alt="더 커진 애플워치 액정">
+                            <img src="./asset/images/30-2-tb.jpg" class="dp-tb"
+                                alt="더 커진 애플워치 액정">
+                            <img src="./asset/images/30-2-mb.jpg" class="dp-mb"
+                                alt="더 커진 애플워치 액정">
+                        </div>
+                        <h3 class="title right"><span>Series 3 대비</span>2배<span>더 빠른 속도</span></h3>
+                    </div>
+                    <div class="wrap5 wrapper">
+                        <div class="face first">
+                            <h3 class="title">볼 때마다 행복한<br>당신만의 <em>페이스</em>.</h3>
+                            <div class="img-box">
+                                <img src="./asset/images/face.jpg" alt="다양한 워치 페이스">
+                            </div>
+                        </div>
+                        <div class="band second">
+                            <h3 class="title"><em>밴드</em>의 향연.</h3>
+                            <div class="img-box">
+                                <img src="./asset/images/band.jpg" alt="여러가지 밴드">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size only">
+                        <div class="img-box">
+                            <img src="./asset/images/size.jpg" class="sz" alt="은색, 골드, 검정색 애플워치">
+                            <img src="./asset/images/size-tb.jpg" class="sz-tb" alt="은색, 골드, 검정색 애플워치">
+                            <img src="./asset/images/size-mb.jpg" class="sz-mb" alt="은색, 골드, 검정색 애플워치">
+                        </div>
+                        <h3 class="title"><span><em>사이즈</em>는 2가지,<br><em>마감</em>은 3가지,<br>좋아할 만한 이유는<br> 가지가지.</span>
+                        </h3>
+                    </div>
+                    <div class="ar only">
+                        <div class="desc">
+                            <h3 class="title">Apple Watch<br>SE의 모습,<br>AR로 미리 보기.</h3>
+                            <span>이 페이지를 iPhone이나 iPad의<br>Safari로 열어보세요.</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./asset/images/ar-iphone.jpg" class="ar" alt="아이폰에 비치는 ar화면의 애플워치">
+                            <img src="./asset/images/ar-iphone-mb.jpg" class="ar-mb"
+                                alt="Apple Watch SE의 모습,AR로 미리 보기.">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="common-inner2">
+                <section class="sc-function">
+                    <h2 class="title">그 밖의 다양한 기능.</h2>
+                    <div class="function-wrap">
+                        <div class="desc wallet"><em>지갑.</em> 탑승권, 영화 티켓, 포인트 카드 등을 보관해두고 편리하게 사용할 수 있습니다.</div>
+                        <div class="desc siri"><em>Siri.</em> 길 찾기, 날씨 확인, 노래 재생 등 Apple Watch에서 할 수 있는 거의 모든 일들을 Siri에게
+                            부탁할
+                            수
+                            있죠.</div>
+                        <div class="desc hearing"><em>소음.</em> 당신 주변의 소음 수준이 청력에 영향을 줄 수 있을 정도로 높은 경우, ‘소음’ 앱이 알려줍니다.
+                        </div>
+                        <div class="desc mense"><em>생리 주기 추적.</em> 생리 기간을 입력하고, 생리통 등의 증상을 기록하거나 다음 예상 가임 시기 예측 알림을 받을
+                            수도
+                            있습니다.
+                        </div>
+                        <div class="desc home"><em>홈.</em> 조명, 실내 온도 조절기, 차고 문 등을 손목에서 제어할 수 있습니다. 보안 카메라를 통해 대문 앞에 있는
+                            사람이
+                            누구인지도
+                            볼 수 있죠.</div>
+                        <div class="desc camera"><em>카메라 리모컨.</em> Apple Watch를 iPhone 카메라의 뷰파인더로 사용할 수 있습니다. 미리 보면서
+                            확인하고,
+                            타이머를
+                            설정하거나 바로 촬영해보세요.</div>
+                        <div class="desc map"><em>지도.</em> 손목에서 ‘지도’ 앱이 알려주는 턴 바이 턴 길 안내를 받아 이동할 수 있습니다. 방향 전환이 필요할 땐
+                            시계가
+                            손목을 살짝
+                            두드려 알려주죠.</div>
+                    </div>
+                </section>
+            </div>
+            <div class="common-inner1">
+                <section class="sc-envi">
+                    <h2 class="title">환경</h2>
+                    <p class="desc">Apple은 제품의 라이프 사이클 전반에 걸쳐 우리의 환경 발자국에 대한 책임을 다합니다. 언젠가 모든 Apple 제품과 포장재에 100% 재활용 및
+                        재생
+                        가능 소재만이 사용될 수 있도록, 우리는 헌신적인 노력을 기울이고 있습니다. Apple Watch는 환경에 미치는 영향을 줄이도록 다양한 특징을 적용하여 디자인되었습니다.
+                    </p>
+                    <a href="" class="link-desc">Apple과 환경에 대해 더 알아보기</a>
+                </section>
+                <section class="sc-credit">
+                    <div class="credit-wrap">
+                        <h2 class="title">새 Apple Watch 구매 시 <br>사용할 수 있는 최대 ₩150,000<br>상당의 크레딧을 받는 법.</h2>
+                        <p class="desc">Apple Trade In을 통해 보상 판매 대상 Apple Watch를 새 Apple Watch 구매 시 쓸 수 있는 크레딧으로 교환할 수
+                            있습니다.
+                            기기의
+                            가치를 최대한 활용하는 것, 당신은 물론 지구에게도 좋은 일이죠.</p>
+                        <a href="" class="link-desc">보상 판매 가격 알아보기</a>
+                    </div>
+                    <div class="img-box">
+                        <img src="./asset/images/credit.jpg" alt="은색 애플워치 사진">
+                    </div>
+                    <div class="img-box-tb">
+                        <img src="./asset/images/credit-tb.jpg" alt="은색 애플워치 사진">
+                    </div>
+                </section>
+                
+            </div>
+            <div class="common-inner2">
+                <section class="sc-type">
+                    <h2 class="sc-title">당신에게 알맞은 Apple Watch는?</h2>
+                    <div class="type-area">
+                        <div class="type-wrap s7">
+                            <div class="type-box box1">
+                                <div class="img-box">
+                                    <img src="./asset/images/w1.jpg" alt="Apple Watch Series 7" class="type">
+                                </div>
+                                <div class="color-box">
+                                    <i class="black"><span class="blind">검정색</span></i>
+                                    <i class="red"><span class="blind">빨강색</span></i>
+                                    <i class="white"><span class="blind">흰색</span></i>
+                                    <i class="black"><span class="blind">검정색</span></i>
+                                    <i class="red"><span class="blind">빨강색</span></i>
+                                    <i class="white"><span class="blind">흰색</span></i>
+                                </div>
+                                <h3 class="title">Apple Watch Series 7</h3>
+                                <p class="price">₩499,000부터</p>
+                                <a href="" class="link-buy">구입하기</a>
+                                <a href="" class="link-more">더 알아보기</a>
+                            </div>
+                            <div class="type-box box2">
+                                <p class="desc advant"><em>45mm 또는 41mm</em>
+                                    <span>수영 최적화2</span>
+                                    <span>
+                                        가장 강력한 깨짐 방지 성능을 갖춘<br>
+                                        전면 크리스털
+                                    </span>
+                                    <span>IP6X 인증을 받은 방진 성능2</span></p>
+                                <p class="desc display">
+                                    <span>
+                                        상시표시형 Retina 디스플레이<br>
+                                        Apple Watch SE 대비<br class="tbbr"> 20%가량 더 큰 화면<br>
+                                    </span>
+                                    <span>Series 3 대비<br class="tbbr"><br> 50% 이상 더 큰 화면</span></p>
+                                <p class="desc oxy"><span>혈중산소 앱</span></p>
+                                <p class="desc ecg"><span>심전도 앱</span></p>
+                                <p class="desc rate"><span>고심박수 및 저심박수 알림<br>불규칙한 심장 박동 알림</span></p>
+                                <p class="desc emergency"><span>긴급 구조 요청</span></p>
+                                <p class="desc cell"><span>셀룰러 지원</span></p>
+                            </div>
+                        </div>
+                        <div class="type-wrap se">
+                            <div class="type-box box1">
+                                <div class="img-box">
+                                    <img src="./asset/images/w2.jpg" alt="Apple Watch Series 7" class="type">
+                                </div>
+                                <div class="color-box">
+                                    <i class="black"></i>
+                                    <i class="red"></i>
+                                    <i class="white"></i>
+                                </div>
+                                <h3 class="title">Apple Watch SE</h3>
+                                <p class="price">₩359,000부터</p>
+                                <a href="" class="link-buy">구입하기</a>
+                                <a href="" class="link-more">더 알아보기</a>
+                            </div>
+                            <div class="type-box box2">
+                                <p class="desc advant"><em>45mm 또는 41mm</em>
+                                    <span>수영 최적화2</span>
+                                    <span>-</span>
+                                    <span>-</span></p>
+                                <p class="desc display">Retina 디스플레이<br>
+                                    Series 3 대비<br class="tbbr"><br>30% 이상 더 큰 화면<br>
+                                </p>
+                                <p class="desc oxy"><span>혈중산소 앱</span></p>
+                                <p class="desc ecg"><span>심전도 앱</span></p>
+                                <p class="desc rate"><span>고심박수 및 저심박수 알림<br>불규칙한 심장 박동 알림</span></p>
+                                <p class="desc emergency"><span>긴급 구조 요청</span></p>
+                                <p class="desc cell"><span>셀룰러 지원</span></p>
+                            </div>
+                        </div>
+                        <div class="type-wrap s3">
+                            <div class="type-box box1">
+                                <div class="img-box">
+                                    <img src="./asset/images/w1.jpg" alt="Apple Watch Series 7" class="type">
+                                </div>
+                                <div class="color-box">
+                                    <i class="black"></i>
+                                    <i class="red"></i>
+                                    <i class="white"></i>
+                                </div>
+                                <h3 class="title">Apple Watch Series 7</h3>
+                                <p class="price">₩499,000부터</p>
+                                <a href="" class="link-buy">구입하기</a>
+                                <a href="" class="link-more">더 알아보기</a>
+                            </div>
+                            <div class="type-box box2">
+                                <p class="desc advant"><em>45mm 또는 41mm</em>
+                                    <span>수영 최적화2</span>
+                                    <span>-</span>
+                                    <span>-</span></p>
+                                <p class="desc display">Retina 디스플레이</p>
+                                <p class="desc oxy"><span>혈중산소 앱</span></p>
+                                <p class="desc ecg"><span>심전도 앱</span></p>
+                                <p class="desc rate"><span>고심박수 및 저심박수 알림<br>불규칙한 심장 박동 알림</span></p>
+                                <p class="desc emergency"><span>긴급 구조 요청</span></p>
+                                <p class="desc cell"><span>셀룰러 지원</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <a href="" class="link-desc">전체 모델 비교하기</a>
+                        <a href="" class="link-desc">Apple Watch 쇼핑하기</a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="common-inner2">
+                <div class="inner2">
+                    <a href="" class="link-buy shipping">
+                        <em>업무일 기준 무료 익일 배송</em>
+                        <p>
+                            오후 3시 이전에 주문된<br>
+                            재고 보유 제품에 한합니다.
+                        </p>
+                        <span>더 알아보기</span>
+                    </a>
+                    <a href="" class="link-buy money">
+                        <em>금융 혜택</em>
+                        <p>
+                            무이자 할부를 통해 Apple 제품을<br>
+                            부담 없이 구매하실 수 있습니다.
+                        </p>
+                        <span>더 알아보기</span>
+                    </a>
+                    <a href="" class="link-buy chat">
+                        <em>도움이 필요하다면</em>
+                        <p>
+                            질문이 있으신가요? 전문가와 전화로<br>
+                            상담하거나 온라인으로 채팅하세요.<br>
+                            080-330-8877로 전화 주세요.
+                        </p>
+                        <span>문의하기</span>
+                    </a>
+                </div>
+                <div class="noted">
+                    <ol class="noted-list">
+                        <li class="noted-item">셀룰러 서비스를 이용하려면 무선 네트워크 서비스 요금제에 가입해야 합니다. 자세한 내용은 이동통신사에 문의하십시오. 네트워크 이용
+                            가능
+                            여부에 따라 연결 상태는 달라질 수 있습니다. 국제 로밍은 지원되지 않습니다. 무선 네트워크 서비스 지원 이동통신사 및 서비스 이용 가능 여부는
+                            apple.com/kr/watch/cellular를 참고하십시오. 추가적인 설정 안내는 support.apple.com/ko-kr/HT207578에서 확인하십시오.
+                        </li>
+                        <li class="noted-item">Apple Watch Series 7, Apple Watch SE 및 Apple Watch Series 3의 50m 방수는 ISO
+                            표준
+                            22810:2010에 따른 등급으로, 수영장이나 바다에서의 수영 등 수심이 얕은 물에서 하는 활동에 사용될 수 있음을 의미합니다. 단, 스쿠버다이빙과 수상스키, 그
+                            밖에
+                            유속이 빠른 물에서 하는 활동이나 수심 깊이 잠수하는 활동에는 사용할 수 없습니다. Series 7은 IP6X 방진 등급도 획득했습니다.</li>
+                        <li class="noted-item">불규칙한 박동 알림 기능은 watchOS 및 iOS 최신 버전이 필요합니다. 만 22세 미만이거나 심방세동을 진단받은 이력이 있는
+                            사용자에게는 적합하지 않습니다.</li>
+                        <li class="noted-item">Apple Watch Series 7 (GPS + Cellular) 모델 및 Apple Watch SE (GPS +
+                            Cellular)
+                            모델은 이동통신 연결을 통해 긴급 구조 요청 기능을 사용할 수 있습니다. 셀룰러 없이 Apple Watch로 긴급 구조 요청 기능을 사용하려면 근처에 iPhone이
+                            있어야
+                            합니다.</li>
+                        <li class="noted-item">업데이트된 넘어짐 감지 기능은 watchOS 8 이후 버전이 설치된 Apple Watch Series 4 이후 모델에서 이용할 수
+                            있습니다.</li>
+                        <li class="noted-item">국제 긴급 구조 요청 기능은 Apple Watch Series 7 (GPS + Cellular) 모델 또는 Apple Watch
+                            SE
+                            (GPS + Cellular) 모델이 필요합니다. 해당 기능을 지원하는 국가 및 지역의 목록은
+                            apple.com/kr/watchos/feature-availability를
+                            참고하십시오.</li>
+                        <li class="noted-item">Apple Music 이용을 위해서는 가입이 필요합니다.</li>
+                        <li class="noted-item">생리 주기 추적 앱과 가임 시기 예측 기능을 피임 수단이나 임신을 위한 보조 수단으로 활용하지 마십시오. 생리 주기 추적 앱의
+                            데이터를
+                            건강 상태를 진단하는 목적으로 사용하지 마십시오.</li>
+                        <li class="noted-item">혈중 산소 앱의 측정 방식은 자가 진단 또는 의사와의 상담을 포함하는 의료 목적을 위한 것이 아니며, 오직 일반 피트니스 및 건강
+                            지향을
+                            위해 설계되었습니다.</li>
+                        <li class="noted-item">심전도 앱은 iOS 최신 버전과 연동되어 있고 watchOS 최신 버전이 설치된 Apple Watch Series 4 이후
+                            모델(Apple
+                            Watch SE 제외)에서 이용할 수 있습니다. 호환성 관련 정보는 apple.com/kr/watch에서 확인하십시오. 심전도 앱은 만 22세 미만의 사용자에게는
+                            적합하지
+                            않습니다. Apple Watch는 심전도 앱을 통해 단일 전극 심전도계와 유사한 심전도를 생성할 수 있습니다.</li>
+                        <li class="noted-item">보상 판매 프로그램은 Apple의 파트너이자 독립적으로 운영되는 제3의 업체에 의해 제공됩니다. Apple 및 Apple의 계열사는
+                            고객과
+                            파트너 간 계약의 당사자가 아닙니다. 보상 판매 금액은 양호한 상태의 Apple Watch Series 6 (GPS + Cellular) 모델(스테인리스 스틸
+                            케이스,
+                            44mm)을 대상으로 산정한 금액입니다. 보상 판매 금액은 보상 판매되는 제품의 상태, 연도, 구성에 따라 달라집니다. 일부 기기는 보상 판매 대상이 아닙니다.
+                            크레딧 또는
+                            Apple Store Gift Card로 보상 판매를 받으려면 최소 19세 이상이어야 합니다. 보상 판매 금액은 적용 가능한 새 기기 구입 시 적용하거나 Apple
+                            Store Gift Card로 받을 수 있습니다. 최종 확정 금액은 보상 판매 대상 기기를 수령한 후, 예상 금액 산정 시 제시한 기기의 설명과 일치하는지 비교 검수
+                            후
+                            정해집니다. 일부 매장에서는 보상 판매 서비스를 제공하지 않으며, 매장 내 보상 판매와 온라인 보상 판매 간 서비스 내용에 차이가 있을 수 있습니다. 일부 매장은
+                            추가 요구
+                            사항이 있을 수 있습니다. Apple 또는 보상 판매 파트너사는 어떤 보상 판매도 거래를 거부하거나, 보상 판매 수량을 제한할 권리를 보유합니다. 적용 가능 기기의
+                            보상
+                            판매 및 재활용에 대한 자세한 내용은 Apple의 보상 판매 파트너사에서 확인하실 수 있습니다. 규제 및 제한이 적용될 수 있습니다.</li>
+                    </ol>
+                    <div class="another-noted">
+                        <p>케이스 및 밴드 조합은 각 컬렉션(Apple Watch, Apple Watch Nike, Apple Watch Hermès) 내에서만 가능합니다.</p>
+                        <p>Apple Watch SE는 iOS 15 이후 버전이 설치된 iPhone 6s 이후 모델이 필요합니다.</p>
+                        <p>기능은 변경될 수 있습니다. 일부 기능, 응용 프로그램 및 서비스를 이용할 수 없는 국가나 언어도 있습니다. <a href="" class="link-all">전체
+                                목록
+                                보기.</a></p>
+                    </div>
+                </div>
+                <div class="menu-area">
+                    <div class="apple-watch-section">
+                        <a href="" class="apple-home"><span class="blind">애플 홈페이지</span></a>
+                        <a href="" class="watch">Watch</a>
+                        <span>Apple Watch SE</span>
+                    </div>
+                    <div class="menu-wrap">
+                        <ul class="menu-box">
+                            <li class="title">쇼핑 및 알아보기</li>
+                            <li class="menu-item"><a href="" class="link-menu">스토어</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Mac</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">iPad</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">iPhone</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Watch</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">AirPods</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">TV 및 홈</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">AirTag</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">액세서리</a></li>
+                        </ul>
+                        <div class="menu-wrap-inner">
+                            <ul class="menu-box">
+                                <li class="title">서비스</li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple Music</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple TV+</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple Arcade</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">iCloud</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple Books</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple Podcast</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">App Store</a></li>
+                            </ul>
+                            <ul class="menu-box col">
+                                <li class="title">계정</li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple ID 관리</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple Store 계정</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">iCloud.com</a></li>
+                            </ul>
+                        </div>
+                        <ul class="menu-box">
+                            <li class="title">Apple Store</li>
+                            <li class="menu-item"><a href="" class="link-menu">매장 찾기</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Genius Bar</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Today at Apple</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Apple 캠프</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Apple Store 앱</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">리퍼 및 특가 제품</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">금융 혜택</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">Apple Trade In</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">주문 상태</a></li>
+                            <li class="menu-item"><a href="" class="link-menu">쇼핑 도움말</a></li>
+                        </ul>
+                        <div class="menu-wrap-inner">
+                            <ul class="menu-box">
+                                <li class="title">비즈니스</li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple과 비즈니스</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">비즈니스를 위한 제품 쇼핑하기</a></li>
+                            </ul>
+                            <ul class="menu-box col">
+                                <li class="title">교육</li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple과 교육</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">초중고용 제품 쇼핑하기</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">대학 생활을 위한 제품 쇼핑하기</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-wrap-inner">
+                            <ul class="menu-box">
+                                <li class="title">Apple의 가치관</li>
+                                <li class="menu-item"><a href="" class="link-menu">손쉬운 사용</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">환경</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">개인정보 보호</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">협력업체에 대한 책임</a></li>
+                            </ul>
+                            <ul class="menu-box col">
+                                <li class="title">Apple 정보</li>
+                                <li class="menu-item"><a href="" class="link-menu">Newsroom</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple 리더십</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">채용 안내</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">윤리 및 규정 준수</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">이벤트</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">일자리 창출</a></li>
+                                <li class="menu-item"><a href="" class="link-menu">Apple 연락처</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-wrap-mb">
+                        <ul class="menu-box-mb">
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">쇼핑 및 알아보기</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">스토어</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Mac</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">iPad</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">iPhone</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Watch</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">AirPods</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">TV 및 홈</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">AirTag</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">액세서리</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">서비스</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Music</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple TV+</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Arcade</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">iCloud</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Books</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Podcast</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">App Store</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">계정</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">Apple ID 관리</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Store 계정</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">iCloud.com</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">Apple Store</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">매장 찾기</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Genius Bar</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Today at Apple</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple 캠프</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Store 앱</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">리퍼 및 특가 제품</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">금융 혜택</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple Trade In</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">주문 상태</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">쇼핑 도움말</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">비즈니스</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">Apple과 비즈니스</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">비즈니스를 위한 제품 쇼핑하기</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">교육</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">Apple과 교육</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">초중고용 제품 쇼핑하기</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">대학 생활을 위한 제품 쇼핑하기</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">Apple의 가치관</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">손쉬운 사용</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">환경</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">개인정보 보호</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">협력업체에 대한 책임</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mb">
+                                <a href="" class="btn-menu-mb">Apple 정보</a>
+                                <ul class="menu-list-mb">
+                                    <li class="menu-item"><a href="" class="link-menu">Newsroom</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple 리더십</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">채용 안내</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">윤리 및 규정 준수</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">이벤트</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">일자리 창출</a></li>
+                                    <li class="menu-item"><a href="" class="link-menu">Apple 연락처</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner3">
+                    <p>다양한 쇼핑 방법: <a href="">Apple Store</a>를 방문하거나, <a href="">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.
+                    </p>
+                </div>
+                <div class="inner4">
+                    <div class="left">
+                        <p class="copy">Copyright © 2022 Apple Inc. 모든 권리 보유.</p>
+                        <div class="info-wrap">
+                            <a href="" class="link-info">개인정보 처리방침</a>
+                            <a href="" class="link-info">웹 사이트 이용 약관</a>
+                            <a href="" class="link-info">판매 및 환불</a>
+                            <a href="" class="link-info">법적 고지</a>
+                            <a href="" class="link-info">사이트 맵</a>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <a href="" class="link-area">대한민국</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
