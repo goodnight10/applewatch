@@ -50,7 +50,6 @@ body{
 }
 
 .common-inner1{
-    /* 레이아웃 바뀌기 전에는 maxwidth  다시 안 줘도 됨 */
     max-width: 1390px;
     margin:0 auto;
     padding: 0 25px;
@@ -83,22 +82,18 @@ body{
 @media screen and (max-width: 1200px) {
     /* *1024을 기준으로 화면을 보고 잡아야함 */
     .common-inner1{
-        /* max-width: 970px; */
     }
 
     .common-inner2{
-        /* max-width: 927px; */
     }
 }
 
 @media screen and (max-width: 1023px) {
     /* *768을보고 잡아야함 */
     .common-inner1{
-        /* max-width: 711px; */
     }
 
     .common-inner2{
-        /* max-width: 719px; */
         width: 100%;
         box-sizing: border-box;
     }
@@ -109,7 +104,6 @@ body{
 @media screen and (max-width: 767px) {
     /* *320을 보고 잡아야함 */
   .common-inner1{
-    /* max-width: 450px; */
     width: 316px;
     
   }
