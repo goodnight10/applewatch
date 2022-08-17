@@ -352,6 +352,20 @@ $(function () {
         },
         y: 50,
       });
+
+
+      gsap.fromTo('.sc-about .hearthealth .hh-mb', {
+        y: 5,
+        
+      }, {
+        scrollTrigger: {
+          trigger: '.hearthealth',
+          start: "0% 80%", //트리거기준 0%위치, 윈도우기준0%
+          end: "100% 80%",
+          scrub: 1,
+        },
+        y: 100,
+      });
     
 
       
