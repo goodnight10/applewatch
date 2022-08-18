@@ -194,6 +194,13 @@
     justify-content: center;
 }
 
+.sc-about .hearthealth .img-box{
+    overflow: hidden;
+    height: 900px;
+}
+
+.sc-about .hearthealth .hh {
+}
 .sc-about .hearthealth .hh-tb {
     display: none;
 }
@@ -1849,13 +1856,19 @@
     }
     
     .sc-about .hearthealth .img-box{
+        display: none;
+    }
+    .sc-about .hearthealth .img-box-mb{
         margin: 0 auto;
+        display: block;
         height: 314px; width: 196px;
     }
+    
     .sc-about .hearthealth .hh-mb{
         display: block;
         width: 100%;
         object-fit: cover;
+        height: 100%;
     }
     .sc-about .hearthealth .hh {
         display: none;
