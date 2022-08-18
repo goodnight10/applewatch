@@ -350,7 +350,7 @@ $(function () {
           // markers:true,
           scrub: 1,
         },
-        y: 10,
+        y: 0,
       });
 
 
