@@ -199,7 +199,8 @@
     height: 900px;
 }
 
-.sc-about .hearthealth .hh {
+.sc-about .hearthealth .img-box-mb{
+    display: none;
 }
 .sc-about .hearthealth .hh-tb {
     display: none;
