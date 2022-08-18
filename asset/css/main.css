@@ -402,6 +402,7 @@
     border-radius: 50px;
     background-color: #fef8f4;
     position: relative;
+    z-index: 3;
 }
 
 .sc-about .display .title {
@@ -424,6 +425,7 @@
 
 .sc-about .display .img-box {
     padding-right: 50px;
+    overflow: hidden;
 }
 
 .sc-about .display .dp-tb {
@@ -1608,13 +1610,17 @@
         overflow: hidden;
     }
 
+    .sc-about .allday {
+        position: relative;
+        z-index: 3;
+    }
     .sc-about .allday .title {
         width: 230px;
     }
 
     .sc-about .allday .img-box {
-        margin-top: 260px;
-        
+        margin-top: 100px;
+        position: absolute;
         width: 100%;
     }
 
@@ -1896,6 +1902,10 @@
     .sc-about .allday .title{
         margin: 0;
     }
+    .sc-about .allday .img-box {
+        margin-top: 260px;
+       
+    }
     .sc-about .app .title{
         margin: 0;
     }
@@ -1949,7 +1959,8 @@
     .sc-about .size .title {
         /* right: 40px; */
         width: 250px;
-        margin: 0;
+        margin: 50px 30px 0;
+        padding: 0;
     }
     .sc-about .size .title br{display: none;}
     
