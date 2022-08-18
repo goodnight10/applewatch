@@ -340,7 +340,7 @@ $(function () {
     "(max-width: 767px)": function () {
          
       gsap.fromTo('.size .img-box', {
-        y: 0,
+        y: -50,
         
       }, {
         scrollTrigger: {
@@ -350,7 +350,7 @@ $(function () {
           // markers:true,
           scrub: 1,
         },
-        y: 50,
+        y: 10,
       });
 
 
