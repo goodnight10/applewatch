@@ -173,17 +173,18 @@ $(function () {
         $('.gnb-area').css('z-index','12');
       }
   
-      $('.dimmed').click(function (e) {
-        e.preventDefault();
+      
   
-        if($('.cart-wrap-mb').hasClass('active')){
-          $('.cart-wrap-mb').removeClass('active')
-          $('.cart-wrap-mb').css('display','none')
-          $('.dimmed').removeClass('active');
-        }
-  
-      })
-  
+    })
+    $('.dimmed').click(function (e) {
+      e.preventDefault();
+
+      if($('.cart-wrap-mb').hasClass('active')){
+        $('.cart-wrap-mb').removeClass('active')
+        $('.cart-wrap-mb').css('display','none')
+        $('.dimmed').removeClass('active');
+      }
+
     })
   
         /**
